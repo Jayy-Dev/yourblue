@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15;
+    background-color: #11111b;
+}
+#q {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header {
+    color: #cdd6f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    border-width: 5px;
+    border-color: #89dceb;
+    border-radius: 5px;
+    border-style: solid;
+    max-width: 400px;
+}
+
+#subh {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    color: #cdd6f4;
+    text-align: center;
+    margin: 0;
+}
+
+.header-subtitle {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cdd6f4;s
+    background-color: #1e1e2e;
+    box-shadow: 3px 3px 10px 0 #89dceb;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 0px 5px 1px 5px;
+}
+
+details summary {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+details summary::marker {
+    color: #89dceb;
+}
+
+.info {
+    border-top: 1px solid #89dceb;
+    display: flex;
+    align-items: center;
+}
+
+.info .info_img {
+    display: flex;
+}
+
+.info .info_details {
+    margin-left: 5px;
+}
+
+.info .info_details p {
+    margin: 0 0 5px 0;
+}
+
+.info .info_details .title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.info .info_details .subtitle {
+    font-size: 16px;
+}
